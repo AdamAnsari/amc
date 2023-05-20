@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function Header() {
   return (
-    <div className="shadow-md">
+    <div className="shadow-md fixed w-full z-10 bg-white">
       <div
         className="w-[1200px] mx-[auto]
       flex flex-row justify-between items-center"
